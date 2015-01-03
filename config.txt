@@ -1,0 +1,13 @@
+zone 15 15
+type string
+etatsNnActif inactif
+etatsNnActif activite
+etatsNnActif en feu
+etatsNnActif braise
+regleTransition feu feu feu feu feu feu
+regleTransition inactif feu feu feu feu feu
+regleActivite
+voisinage 0 1 
+voisinage 1 0 
+voisinage -1 0 
+voisinage 0 -1 
